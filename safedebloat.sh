@@ -41,7 +41,6 @@ system_ext/priv-app/VoiceCommand
 system_ext/priv-app/GeofenceService
 system_ext/priv-app/VoiceUnlock
 product/app/Photos
-product/app/LatinImeGoogle
 product/app/YTMusic
 product/app/YouTube
 product/app/Keep
@@ -70,12 +69,14 @@ system_ext/priv-app/MtkDialer
 system_ext/priv-app/CallRecorderService
 product/priv-app/GoogleDialer
 system/system/priv-app/MtkMmsService
-system/system/app/xLauncher3
-system/system/app/Launcher
 system_ext/app/AOVTestsApp"
 
 ignore="
 ./system/system/app/XrzSettings
+system/system/app/xLauncher3
+system/system/app/Launcher
+product/app/LatinImeGoogle
+
 "
 ### For each element in the list... remove the package or folder.
 for f in $list
